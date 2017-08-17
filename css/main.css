@@ -1,0 +1,142 @@
+body{
+	
+	position:relative;
+}
+
+#sol{
+	background-color: #FAFF16;
+	position:absolute;	
+	width:100px;
+	height:100px;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+
+}
+
+
+
+
+#pared{
+	background-color:#CA6F1E;
+	position:absolute;
+	width:500px;
+	left:715px;
+	height:200px;
+	top:350px;
+	border:3px solid #555;
+	
+}
+ #techo{
+ 	position:absolute;
+ 	width:250px;
+ 	height:0px;
+ 	top:250px;
+ 	left:700px;
+    border-left: 145px solid transparent;
+    border-right: 145px solid transparent;
+    border-bottom: 100px solid #000000;
+
+}
+
+#puerta{
+	position:absolute;
+	width: 100px; 
+    height: 150px; 
+    border: 3px solid #555;
+    background-color: #000000;
+    top:400px;
+    right:500px;
+
+}
+
+/*.heart-shape{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	background-color: rgba(250,184,66, 1);
+	top:400px;
+}
+
+.heart-shape:before,
+.heart-shape:after{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	content: '';
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	background-color: rgba(250,184,66, 1);
+}
+.heart-shape:before{
+	bottom: 0px;
+	left: -100px;
+}
+.heart-shape:after{
+	top: -100px;
+	right: 0px;
+}*/
+
+
+#ventana{
+	position:absolute;
+	top:400px;
+	left:1000px;
+	width:100px;
+	height: 80px;
+	border:3px solid #555;
+	background: #FF0000;
+	
+}
+
+#chimenea{
+	position:absolute;
+	top:260px;
+	left:1050px;
+	width:30px;
+	height: 60px;
+	border:3px solid #555;
+	background: #CA6F1E;
+}
+
+#humo1 {
+	 position: absolute;
+     width: 25px;
+     height: 25px;
+     left: 1060px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #6E6E6E;
+}
+
+#humo2 {
+	 position: absolute;
+     width: 25px;
+     height: 25px;
+     left: 1075px;
+     top:160px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #6E6E6E;
+}
+
+#humo3 {
+	 position: absolute;
+     width: 25px;
+     height: 25px;
+     left: 1095px;
+     top:130px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #6E6E6E;
+}
